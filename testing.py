@@ -11,4 +11,4 @@ def browser():
     yield driver
 def test_search_google(browser):
     browser.get('https://www.google.com')
-    search_box = browser.find_element(By.NAME,'n')
+    search_box = browser.find_element(By.NAME,'q')
